@@ -15,7 +15,7 @@ export const Footer = () => {
                             >
                                 <img
                                     className="main-footer__icon"
-                                    src="../src/assets/png/linkedin-ico.png"
+                                    src="https://servidor-estatico-tan.vercel.app/linkedin-ico.png"
                                     alt="Perfil Linkedin Guilherme Camargo"
                                 />
                             </a>
@@ -26,7 +26,7 @@ export const Footer = () => {
                             >
                                 <img
                                     className="main-footer__icon"
-                                    src="../src/assets/png/github-ico.png"
+                                    src="https://servidor-estatico-tan.vercel.app/github-ico.png"
                                     alt="Perfil GitHub Guilherme Camargo"
                                 />
                             </a>
@@ -37,7 +37,7 @@ export const Footer = () => {
                             >
                                 <img
                                     className="main-footer__icon"
-                                    src="../src/assets/png/blog-ico.png"
+                                    src="https://servidor-estatico-tan.vercel.app/blog-ico.png"
                                     alt="Blog Perfil DEV.to Guilherme Camargo"
                                 />
                             </a>

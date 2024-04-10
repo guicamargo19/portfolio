@@ -18,7 +18,7 @@ export const projects: Projeto[] = [
         description: 'O Projeto é uma aplicação de agenda de contatos altamente interativa e intuitiva construída utilizando Django com Python.',
         projectlLink: 'https://agenda.gtatelie.com.br/',
         repository: 'https://github.com/guicamargo19/agenda.git',
-        image: '../src/assets/projects-png/Agenda.png',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio_agenda.png',
         overview: [
             'A aplicação Agenda é uma plataforma acessível para leitura de informações, enquanto as operações CRUD (Create, Read, Update, Delete) \
             requerem uma conta de administrador. Esta conta tem permissões de realizar essas operações apenas em contato sob sua administração.', 
@@ -42,7 +42,7 @@ export const projects: Projeto[] = [
         description: 'O Blog é uma sofisticada aplicação desenvolvida em Django com Python, oferecendo segurança e intuição. Destaca-se pela alta responsividade e atenção especial à acessibilidade.',
         projectlLink: 'https://blog.gtatelie.com.br/',
         repository: 'https://github.com/guicamargo19/blog_devs_place.git',
-        image: '../src/assets/projects-png/Blog.png',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio_blog.png',
         overview: [
             'O Blog foi desenvolvido em Django com Python, oferecendo segurança e controle para os usuários. Cada administrador tem \
             acesso exclusivo ao seu blog, garantindo a integridade do sistema.',
@@ -65,7 +65,7 @@ export const projects: Projeto[] = [
         description: 'E-Commerce robusto em Django com Python que possui funcionalidades para uma experiência completo de compra.',
         projectlLink: 'https://ecommerce.gtatelie.com.br/',
         repository: 'https://github.com/guicamargo19/ecommerce.git',
-        image: '../src/assets/projects-png/E-Commerce.png',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio_ecommerce.png',
         overview: [
             'O projeto E-Commerce se destaca por oferecer uma experiência de compra completa e intuitiva, aliando funcionalidades robustas a um design minimalista.',
 
@@ -87,7 +87,7 @@ export const projects: Projeto[] = [
         description: 'Website fictício com lista de restaurantes que oferencendo aos clientes uma experiência de compra sem complicações, elegante e rápida.',
         projectlLink: 'https://efood-two-beta.vercel.app',
         repository: 'https://github.com/guicamargo19/efood.git',
-        image: '../src/assets/projects-png/eFood.png',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio_efood.png',
         overview: [
             'Desenvolvido em ReactjS com TypeScript com requisições feitas para API utilizando React Toolkit Query, este projeto apresenta uma listagem de restaurantes, \
             onde é possível visitar a página individual de cada um e acessar seu cardápio. Pode-se inserir e remover os itens desejados no carrinho, sendo permitido apenas \

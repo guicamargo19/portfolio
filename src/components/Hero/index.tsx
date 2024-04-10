@@ -22,7 +22,7 @@ export const Hero = () => {
                         target="_blank"
                     >
                         <img
-                            src="./src/assets/svg/linkedin-dark.svg"
+                            src="https://servidor-estatico-tan.vercel.app/linkedin-dark.svg"
                             alt="Perfil Linkedin Guilherme Camargo"
                             className="home-hero__social-icon"
                         />
@@ -36,7 +36,7 @@ export const Hero = () => {
                         target="_blank"
                     >
                         <img
-                            src="./src/assets/svg/github-dark.svg"
+                            src="https://servidor-estatico-tan.vercel.app/github-dark.svg"
                             alt="Perfil GitHub Guilherme Camargo"
                             className="home-hero__social-icon"
                         />
@@ -50,7 +50,7 @@ export const Hero = () => {
                         target="_blank"
                     >
                         <img
-                            src="./src/assets/svg/book-dark.svg"
+                            src="https://servidor-estatico-tan.vercel.app/book-dark.svg"
                             alt="DEV.to Blog Perfil Guilherme Camargo"
                             className="home-hero__social-icon"
                         />

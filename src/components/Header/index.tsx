@@ -95,12 +95,12 @@ export const Header = () => {
                     </ul>
                     <div className="header__main-ham-menu-cont">
                         <img
-                            src="./src/assets/svg/ham-menu.svg"
+                            src="https://servidor-estatico-tan.vercel.app/ham-menu.svg"
                             alt="hamburger menu"
                             className="header__main-ham-menu"
                         />
                         <img
-                            src="./src/assets/svg/ham-menu-close.svg"
+                            src="https://servidor-estatico-tan.vercel.app/ham-menu-close.svg"
                             alt="hamburger menu close"
                             className="header__main-ham-menu-close d-none"
                         />
