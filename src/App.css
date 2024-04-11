@@ -522,6 +522,7 @@ textarea {
   font-size: 1.8rem;
   color: #666;
   max-width: 60rem;
+  height: 120px;
   line-height: 1.7;
   margin-bottom: 3rem;
 }
