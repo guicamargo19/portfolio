@@ -12,8 +12,7 @@ const Project = ({ projects }: Props) => {
                 <h2 className="heading heading-sec heading-sec__mb-bg">
                     <span className="heading-sec__main heading-sec__main--lt">Projetos</span>
                     <span className="heading-sec__sub">
-                        Aqui você irá encontrar alguns dos meus projetos pessoais, acadêmicos e
-                        de clientes que desenvolvi, clique em conhecer para saber mais.
+                        Aqui você encontra alguns dos projetos que desenvolvi, clique em "conhecer" para saber mais.
                     </span>
                 </h2>
                 <div>
@@ -24,7 +23,7 @@ const Project = ({ projects }: Props) => {
                                     <div
                                         key={project.id}
                                         className={`carousel-item ${index === 0 ? 'active' : ''}`}
-                                        data-bs-interval="7000"
+                                        data-bs-interval="11000"
                                     >
                                         <div className="projects__row">
                                             <div className="projects__row-img-cont">

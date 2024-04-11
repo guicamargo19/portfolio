@@ -15,7 +15,7 @@ export const projects: Projeto[] = [
     {
         id: 1,
         title: 'Agenda',
-        description: 'O Projeto é uma aplicação de agenda de contatos altamente interativa e intuitiva construída utilizando Django com Python.',
+        description: 'O Projeto é uma aplicação de agenda de contatos altamente interativa e intuitiva, construída utilizando Django com Python.',
         projectlLink: 'https://agenda.gtatelie.com.br/',
         repository: 'https://github.com/guicamargo19/agenda.git',
         image: 'https://servidor-estatico-tan.vercel.app/portfolio_agenda.png',
@@ -39,7 +39,7 @@ export const projects: Projeto[] = [
     {
         id: 2,
         title: 'Blog Devs Place',
-        description: 'O Blog é uma sofisticada aplicação desenvolvida em Django com Python, oferecendo segurança e intuição. Destaca-se pela alta responsividade e atenção especial à acessibilidade.',
+        description: 'O Blog é uma sofisticada aplicação desenvolvida em Django com Python, altamente gerenciável, intuitiva e segura. Destaca-se pela alta responsividade e atenção especial à acessibilidade.',
         projectlLink: 'https://blog.gtatelie.com.br/',
         repository: 'https://github.com/guicamargo19/blog_devs_place.git',
         image: 'https://servidor-estatico-tan.vercel.app/portfolio_blog.png',
@@ -62,7 +62,7 @@ export const projects: Projeto[] = [
     {
         id: 3,
         title: 'E-Commerce',
-        description: 'E-Commerce robusto em Django com Python que possui funcionalidades para uma experiência completo de compra.',
+        description: 'E-Commerce robusto em Django com Python que possui funcionalidades para uma experiência completa de compra.',
         projectlLink: 'https://ecommerce.gtatelie.com.br/',
         repository: 'https://github.com/guicamargo19/ecommerce.git',
         image: 'https://servidor-estatico-tan.vercel.app/portfolio_ecommerce.png',
@@ -71,10 +71,10 @@ export const projects: Projeto[] = [
 
             'Através de recursos cuidadosamente planejados, o projeto visa atender às necessidades tanto dos clientes quanto dos administradores da plataforma.',
             
-            'Focado na experiência do usuário, trazendo visual minimalista e totalmente gerenciável, criando produtos com variações, listagem detalhada, carrinho \
+            'É focado na experiência do usuário e totalmente gerenciável, criando produtos com variações, listagem detalhada, carrinho \
             de compras com funcionalidade de remover itens, perfis de clientes, autenticação de login/logout, registro de pedidos e página de pagamento integrada.',
 
-            'A criação e gerenciamento do site com total controle sobre as informações, adição de produtos com diversas variações para atender às diferentes \
+            'Permite a criação e gerenciamento do site com total controle sobre as informações, adição de produtos com diversas variações para atender às diferentes \
             demandas, controle de estoque e pedidos para otimizar a logística da loja virtual.',
             
             'Plataforma robusta e flexível para suportar o crescimento futuro do negócio e integração com outras ferramentas e marketplaces para ampliar o alcance da loja.',
@@ -84,24 +84,24 @@ export const projects: Projeto[] = [
     {
         id: 4,
         title: 'eFood',
-        description: 'Website fictício com lista de restaurantes que oferencendo aos clientes uma experiência de compra sem complicações, elegante e rápida.',
+        description: 'Website fictício com lista de restaurantes que oferece aos clientes uma experiência de compra sem complicações, rápida e elegante.',
         projectlLink: 'https://efood-two-beta.vercel.app',
         repository: 'https://github.com/guicamargo19/efood.git',
         image: 'https://servidor-estatico-tan.vercel.app/portfolio_efood.png',
         overview: [
             'Desenvolvido em ReactjS com TypeScript com requisições feitas para API utilizando React Toolkit Query, este projeto apresenta uma listagem de restaurantes, \
-            onde é possível visitar a página individual de cada um e acessar seu cardápio. Pode-se inserir e remover os itens desejados no carrinho, sendo permitido apenas \
-            um tipo de cada prato.',
+            onde é possível visitar a página individual de cada um e acessar seu cardápio. Pode-se inserir e remover os itens desejados no carrinho, sendo permitido adicionar apenas \
+            um item de cada prato.',
 
-            'Website segue boas práticas de programação, utilizando as regras ESLint para o ambiente de desenvolvimento e Styled Components para estilização, \
-            projeto é totalmente responsivo e oferece um ótimo feedback de interação com o usuário tornando a experiência de navegação mais agradável e intuitiva.',
+            'O website segue boas práticas de programação, utilizando as regras ESLint para o ambiente de desenvolvimento e Styled Components para estilização, \
+            é totalmente responsivo e oferece um ótimo feedback de interação com o usuário tornando a experiência de navegação mais agradável e intuitiva.',
 
             'Utilizando Redux para gerenciar o estado da aplicação e React Router DOM para navegação entre páginas, tornando esta uma SPA (Single Page Application), \
-            toda parte do pedido e preenchimento do endereço de entrega e pagamento apenas com cartão de crédito, fica rápida e descomplicada, permitindo ao usuário \
-            finalizar seu pedido de forma tranquila e rápida.',
+            toda parte do pedido e preenchimento do endereço de entrega e pagamento aceitando apenas cartão de crédito, fica rápida e descomplicada, permitindo ao usuário \
+            finalizar seu pedido de forma tranquila.',
 
-            'Os formulários foram criados com Formik e com validação e máscaras nos campos feitas com Yup, assim todos os campos possuem validação e \
-            estão ligados por uma chacagem robusta para evitar erros e informações inválidas.',
+            'Os formulários foram criados com Formik e máscaras nos campos feitas com Yup, assim todos os campos possuem validação e \
+            uma chacagem robusta para evitar erros e informações inválidas.',
         ],
         tools: ['ESLint', 'HTML5', 'CSS3', 'Styled Components', 'NodeJS', 'ReactJS', 'ReduxJS', 'Router DOM', 'React Spinners', 'React Toolkit Query', 'Formik', 'Yup', 'TypeScript', 'NPM',]
     },

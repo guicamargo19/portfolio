@@ -81,16 +81,16 @@ export const Header = () => {
                 <div className="header__main">
                     <ul className="header__links">
                         <li className="header__link-wrapper">
-                            <a onClick={() => handleButtonClick('hero')} className="header__link">Home</a>
+                            <a onClick={() => handleButtonClick('hero')} className="header__link heading-sec__main__menu">Home</a>
                         </li>
                         <li className="header__link-wrapper">
-                            <a onClick={() => handleButtonClick('about')} className="header__link">Sobre</a>
+                            <a onClick={() => handleButtonClick('about')} className="header__link heading-sec__main__menu">Sobre</a>
                         </li>
                         <li className="header__link-wrapper">
-                            <a onClick={() => handleButtonClick('projects')} className="header__link">Projetos</a>
+                            <a onClick={() => handleButtonClick('projects')} className="header__link heading-sec__main__menu">Projetos</a>
                         </li>
                         <li className="header__link-wrapper">
-                            <a onClick={() => handleButtonClick('contact')} className="header__link">Contato</a>
+                            <a onClick={() => handleButtonClick('contact')} className="header__link heading-sec__main__menu">Contato</a>
                         </li>
                     </ul>
                     <div className="header__main-ham-menu-cont">

@@ -9,7 +9,7 @@ const Projects = ({ projects }: Props) => {
     const navigate = useNavigate();
     const { id } = useParams()
     const project = projects.find(project => project.id === parseInt(id!));
-    if (!project) return <div>Projeto não encontrado</div>;
+    if (!project) return <div>Projeto não encontrado.</div>;
 
     const handleButtonClick = (sectionId: string) => {
         navigate('/');
@@ -33,7 +33,7 @@ const Projects = ({ projects }: Props) => {
                         </p>
                     </div>
                     <div className="home-hero__cta">
-                        <a href={project.projectlLink} className="button btn--bg">Acessar</a>
+                        <a href={project.projectlLink} target="_blank" className="button btn--bg">Acessar</a>
                     </div>
                 </div>
             </section>

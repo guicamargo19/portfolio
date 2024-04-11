@@ -11,10 +11,10 @@ export const About = () => {
                 </h2>
                 <div className="about__content">
                     <div className="about__content-main">
-                        <h3 className="about__content-title">Me conhecendo!</h3>
+                        <h3 className="about__content-title">Me conhecendo.</h3>
                         <div className="about__content-details">
                             <p className="about__content-details-para">
-                                Sou <strong>Engenheiro da computação e Desenvolvedor Full Stack Python</strong>
+                                Sou <strong>Engenheiro da computação</strong> e <strong>Desenvolvedor Full Stack Python </strong>
                                 construindo e gerenciando aplicações web e projetos com foco na
                                 experiência do usuário e no sucesso geral. Confira um pouco do
                                 meu trabalho na seção <strong>Projetos</strong>.
@@ -23,26 +23,18 @@ export const About = () => {
                                 Gosto muito de desafios que me permitem pesquisar e buscar soluções,
                                 muitas vezes inovadoras, que me fazem crescer e evoluir como profissional.
                                 Estou sempre aprendendo novos métodos de realizar tarefas, me desenvolvendo
-                                e expandindo minhas capacidades. Sinta-se à vontade de seguir meu
+                                e expandindo minhas capacidades. Sinta-se a vontade para seguir meu
                                 <a
                                     rel="noreferrer"
                                     href="https://www.linkedin.com/in/guilherme-ferreira-camargo/"
                                     target="_blank"
-                                >Linkedin</a>
-                                e
-                                <a
-                                    rel="noreferrer"
-                                    href="https://www.instagram.com/gui.fcamargo/"
-                                    target="_blank"
-                                >Instagram</a>
-                                onde podemos nos conectar e compartilhar conhecimento e novidades e
-                                oportunidades.
+                                > LinkedIn</a>
+                                , onde podemos nos conectar e compartilhar conhecimento, ideias e novidades.
                             </p>
                             <p className="about__content-details-para">
-                                Estou aberto a<strong> oportunidades </strong>onde possa contribuir,
-                                aprender e crescer. Se você tem uma vaga que combina com minhas habilidades
-                                não hesite em entrar em
-                                <strong>contato</strong> comigo.
+                                Estou aberto a oportunidades onde possa contribuir, aprender e crescer. 
+                                Se você tem uma vaga que combina com minhas habilidades não hesite em entrar em
+                                contato comigo.
                             </p>
                         </div>
                         <a href="./#contact" className="button btn--med btn--theme dynamicBgClr"
