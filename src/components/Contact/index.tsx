@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 
 export const Contact = () => {
     const initialContactState = {
@@ -15,10 +15,11 @@ export const Contact = () => {
         message: "",
     });
 
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) =>
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         setContact({ ...contact, [e.target.name]: e.target.value });
+    }
 
-    const handleSubmit = async (e: SubmitEvent) => {
+    const handleSubmit = async (e: FormEvent) => {
         e.preventDefault();
         setLoading(true);
         try {
@@ -68,7 +69,7 @@ export const Contact = () => {
                         id="staticform"
                         action="https://api.staticforms.xyz/submit"
                         method="post"
-                        onSubmit={() => handleSubmit}
+                        onSubmit={handleSubmit}
                     >
                         <input
                             type="hidden"
@@ -115,8 +116,8 @@ export const Contact = () => {
                                 placeholder="Digite sua mensagem"
                                 name="message"
                                 value={contact.message}
-                                onChange={() => handleChange}
                                 id="message"
+                                onChange={handleChange}
                             ></textarea>
                         </div>
                         <button
