@@ -130,7 +130,7 @@ export const Contact = () => {
                             Enviar
                         </button>
                         {response && (
-                        <div id="modal" className="modal mt-5 p-4" data-bs-backdrop="static">
+                        <div id="modal" className="modal" data-bs-backdrop="static">
                             <div className="modal-dialog">
                                 <div className="modal-content">
                                     <div className="modal-header">
