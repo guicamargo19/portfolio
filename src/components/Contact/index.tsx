@@ -60,8 +60,8 @@ export const Contact = () => {
                 <h2 className="heading heading-sec heading-sec__mb-med">
                     <span className="heading-sec__main heading-sec__main--lt">Contato</span>
                     <span className="heading-sec__sub heading-sec__sub--lt">
-                        Sinta-se à vontade de me contatar enviando um mensagem através do
-                        formulário abaixo, e eu retornarei o mais breve possível.
+                        Sinta-se a vontade para me contatar enviando uma mensagem através do
+                        formulário abaixo, e retornarei o mais breve possível.
                     </span>
                 </h2>
                 <div className="contact__form-container">

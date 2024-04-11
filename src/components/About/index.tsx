@@ -47,13 +47,15 @@ export const About = () => {
                             <div className="skills__skill">CSS</div>
                             <div className="skills__skill">CSS Modules</div>
                             <div className="skills__skill">Styled Components</div>
-                            <div className="skills__skill">JavaScript</div>
                             <div className="skills__skill">Bootstrap</div>
                             <div className="skills__skill">Design responsivo</div>
                             <div className="skills__skill">Gulp</div>
+                            <div className="skills__skill">Grunt</div>
+                            <div className="skills__skill">JavaScript</div>
+                            <div className="skills__skill">TypeScript</div>
                             <div className="skills__skill">jQuery</div>
                             <div className="skills__skill">SASS</div>
-                            <div className="skills__skill">TypeScript</div>
+                            <div className="skills__skill">LESS</div>
                             <div className="skills__skill">ReactJS</div>
                             <div className="skills__skill">ReduxJS</div>
                             <div className="skills__skill">Vue.js</div>
@@ -68,6 +70,8 @@ export const About = () => {
                             <div className="skills__skill">PostgreSQL</div>
                             <div className="skills__skill">Docker</div>
                             <div className="skills__skill">GitHub Actions</div>
+                            <div className="skills__skill">Google Cloud Platform</div>
+                            <div className="skills__skill">DevOps</div>
                             <div className="skills__skill">CI/CD</div>
                         </div>
                     </div>

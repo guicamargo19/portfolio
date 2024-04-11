@@ -12,7 +12,7 @@ const Project = ({ projects }: Props) => {
                 <h2 className="heading heading-sec heading-sec__mb-bg">
                     <span className="heading-sec__main heading-sec__main--lt">Projetos</span>
                     <span className="heading-sec__sub">
-                        Aqui você encontra alguns dos projetos que desenvolvi, clique em "conhecer" para saber mais.
+                        Aqui você encontra alguns dos projetos que desenvolvi. Clique em "conhecer" para saber mais.
                     </span>
                 </h2>
                 <div>
