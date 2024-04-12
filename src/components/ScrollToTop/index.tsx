@@ -9,7 +9,11 @@ const ScrollToTop = ({children}: Props) => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-      window.scrollTo(0, 0);
+    if (pathname ===('/')) {
+      return;
+    }
+
+    window.scrollTo(0, 0);
   }, [pathname]);
 
   return <>{children}</>;

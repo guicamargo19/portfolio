@@ -19,7 +19,7 @@ const Projects = ({ projects }: Props) => {
             if (section) {
                 section.scrollIntoView({ behavior: 'smooth' });
             }
-        }, 335);
+        }, 100);
     };
 
     return (

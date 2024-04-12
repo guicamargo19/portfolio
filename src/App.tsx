@@ -14,8 +14,10 @@ function App() {
       <ScrollToTop>
         <Routes>
             <Route path="/" element={<Home projects={projects}/>} />
+        </Routes>
+        <Routes>
             <Route path="/project/:id" element={<Projects projects={projects} />} />
-          </Routes>
+        </Routes>
       </ScrollToTop>
       <Footer />
     </BrowserRouter>
