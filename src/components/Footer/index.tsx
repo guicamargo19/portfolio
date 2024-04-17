@@ -1,4 +1,9 @@
 export const Footer = () => {
+
+    const getYear = () => {
+        return new Date().getFullYear();
+    }
+
     return (
         <footer className="main-footer">
             <div className="main-container">
@@ -53,10 +58,7 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div className="main-footer__lower">
-                    &copy; Copyright
-                    <script>
-                        document.write(new Date().getFullYear());
-                    </script>
+                    &copy; Copyright - <span>{getYear()}</span>
                     . Feito por
                     <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/guilherme-ferreira-camargo/">
                         Guilherme Camargo
