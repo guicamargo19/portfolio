@@ -11,7 +11,7 @@ export const About = () => {
                 </h2>
                 <div className="about__content">
                     <div className="about__content-main">
-                        <h3 className="about__content-title">Me conhecendo.</h3>
+                        <h3 className="about__content-title">Me conhecendo</h3>
                         <div className="about__content-details">
                             <p className="about__content-details-para">
                                 Sou <strong>Engenheiro da computação</strong> e <strong>Desenvolvedor Full Stack Python </strong>
@@ -23,12 +23,12 @@ export const About = () => {
                                 Gosto muito de desafios que me permitem pesquisar e buscar soluções,
                                 muitas vezes inovadoras, que me fazem crescer e evoluir como profissional.
                                 Estou sempre aprendendo novos métodos de realizar tarefas, me desenvolvendo
-                                e expandindo minhas capacidades. Sinta-se a vontade para seguir meu
+                                e expandindo minhas capacidades. Sinta-se a vontade para seguir meu 
                                 <a
                                     rel="noreferrer"
                                     href="https://www.linkedin.com/in/guilherme-ferreira-camargo/"
                                     target="_blank"
-                                > LinkedIn</a>
+                                >LinkedIn</a>
                                 , onde podemos nos conectar e compartilhar conhecimento, ideias e novidades.
                             </p>
                             <p className="about__content-details-para">
@@ -46,9 +46,9 @@ export const About = () => {
                             <div className="skills__skill">HTML</div>
                             <div className="skills__skill">CSS</div>
                             <div className="skills__skill">CSS Modules</div>
-                            <div className="skills__skill">Styled Components</div>
                             <div className="skills__skill">Bootstrap</div>
                             <div className="skills__skill">Design responsivo</div>
+                            <div className="skills__skill">Styled Components (CSS-in-JS)</div>
                             <div className="skills__skill">Gulp</div>
                             <div className="skills__skill">Grunt</div>
                             <div className="skills__skill">JavaScript</div>
@@ -57,9 +57,10 @@ export const About = () => {
                             <div className="skills__skill">SASS</div>
                             <div className="skills__skill">LESS</div>
                             <div className="skills__skill">ReactJS</div>
-                            <div className="skills__skill">ReduxJS</div>
+                            <div className="skills__skill">Redux</div>
                             <div className="skills__skill">Vue.js</div>
                             <div className="skills__skill">Jest</div>
+                            <div className="skills__skill">Cypress</div>
                             <div className="skills__skill">GIT</div>
                             <div className="skills__skill">NPM</div>
                             <div className="skills__skill">Vite</div>

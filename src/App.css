@@ -1100,3 +1100,7 @@ textarea {
       top: 27px;
   }
 }
+
+.main-footer__social-cont a img:hover {
+  transform: scale(1.1);
+}
