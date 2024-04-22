@@ -105,4 +105,48 @@ export const projects: Projeto[] = [
         ],
         tools: ['ESLint', 'HTML5', 'CSS3', 'Styled Components', 'NodeJS', 'ReactJS', 'ReduxJS', 'Router DOM', 'React Spinners', 'React Toolkit Query', 'Formik', 'Yup', 'TypeScript', 'NPM',]
     },
+    {
+        id: 5,
+        title: 'Calculadora IMC',
+        description: 'Projeto calcula o Índice de Massa Corporal do usuário, dado as informações pelo campos altura e peso.',
+        projectlLink: 'https://imc-react-gray-rho.vercel.app/',
+        repository: 'https://github.com/guicamargo19/imc_react.git',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio-calculadora-IMC.png',
+        overview: [
+            'Desenvolvido em ReactJS com JavaScript e estilizado com CSS Modules, este projeto simples permite realizar o cálculo do IMC com as informações \
+            informadas pelo usuários, e dado o resultado, é automática mostrado sua colocação na tabela de classificação oficial.',
+
+            'A partir das informações, o índice é calculado dividindo o peso pela altura elevada ao quadrado. Após o cálculo, é retornado também \
+            a classificação na seguinte tabela:',
+
+            '- IMC menor que 18,5kg/m2 - baixo peso.',
+            '- IMC entre 18,5kg/m2 e 24,9kg/m2 - eutrofia (peso adequado)',
+            '- IMC entre 25,0kg/m2 e 29,9kg/m2 - sobrepeso.',
+            '- IMC entre 30,0kg/m2 e 39,9kg/m2 - obesidade grau 2.',
+            '- IMC maior que 40,0kg/m2 - obesidade grave.',
+
+            'Seguindo as boas práticas de programação e regras ESLint no ambiente de desenvolvimento, projeto foca na usabilidade da aplicação \
+            pelo usuário, contendo explicação resumida, bastante informação sem poluição de tela, é rápido acesso ao resultado.',
+        ],
+        tools: ['Node.js', 'ReactJS', 'ESLint', 'HTML5', 'CSS3', 'CSS Modules', 'JavaScript', 'Vite', 'NPM',]
+    },
+    {
+        id: 6,
+        title: 'Calculadora Aritmética',
+        description: 'Aplicação que realiza as quatro operações básica da matemática (Adição, Subtração, Divisão e Multiplicação), em tempo real conforme dado é digitado.',
+        projectlLink: 'https://calculadora-vue-omega-sooty.vercel.app/',
+        repository: 'https://github.com/guicamargo19/calculadora_vue.git',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio-calculadora-aritmética.png',
+        overview: [
+            'Aplicação simples desenvolvida em Vue.js, com visual minimalista criado com classes Bootstrap e pequenas alterações em CSS3, \
+            entrega uma experiência eficiente nos cálculos realizando as operações matemáticas em tempo real.',
+
+            'Projeto contém dois campos para inserir os números e um campo do tipo select para escolher a operação aritmética. \
+            Ao alterar os valores, o cálculo já é realizado sem precisar clicar em nenhum botão.',
+
+            'Permite apenas as quatro operações matemática básica (Adição, Subtração, Divisão e Multiplicação), com visual elegante \
+            e focado na experiência de usabilidade do usuário.',
+        ],
+        tools: ['Node.js', 'Vue.js', 'HTML5', 'CSS3', 'Bootstrap', 'JavaScript', 'Vite', 'NPM',]
+    },
 ]

@@ -72,6 +72,9 @@ const Project = ({ projects }: Props) => {
                                         <button name="prev-2" type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
                                         <button name="prev-3" type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
                                         <button name="prev-4" type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                                        <button name="prev-5" type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                                        <button name="prev-6" type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
+                                        {/* <button name="prev-4" type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button> */}
                                 </div>
                             </div>
                         </div>
