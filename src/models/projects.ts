@@ -20,7 +20,7 @@ export const projects: Projeto[] = [
         repository: 'https://github.com/guicamargo19/agenda.git',
         image: 'https://servidor-estatico-tan.vercel.app/portfolio_agenda.png',
         overview: [
-            'A aplicação Agenda é uma plataforma acessível para leitura de informações, enquanto as operações CRUD (Create, Read, Update, Delete) \
+            'A aplicação Agenda é uma plataforma acessível para leitura (Read) de informações, enquanto as demais operações CRUD (Create, Update, Delete) \
             requerem uma conta de administrador. Esta conta tem permissões de realizar essas operações apenas em contato sob sua administração.', 
             
             'Construída com HTML5 e estilizada com CSS3, a Agenda ostenta um design moderno e minimalista, proporcionando uma navegação fácil \
@@ -100,7 +100,7 @@ export const projects: Projeto[] = [
             toda parte do pedido e preenchimento do endereço de entrega e pagamento aceitando apenas cartão de crédito, fica rápida e descomplicada, permitindo ao usuário \
             finalizar seu pedido de forma tranquila.',
 
-            'Os formulários foram criados com Formik e máscaras nos campos feitas com Yup, assim todos os campos possuem validação e \
+            'Os formulários foram criados com Formik e as máscaras nos campos feitas com Yup, assim todos os campos possuem validação e \
             uma chacagem robusta para evitar erros e informações inválidas.',
         ],
         tools: ['NodeJS', 'ReactJS', 'Redux', 'ESLint', 'Prettier', 'HTML5', 'CSS3', 'Styled Components (CSS-in-JS)', 'Router DOM', 'React Spinners', 'React Toolkit Query', 'Formik', 'Yup', 'TypeScript', 'NPM',]
@@ -114,7 +114,7 @@ export const projects: Projeto[] = [
         image: 'https://servidor-estatico-tan.vercel.app/portfolio-calculadora-IMC.png',
         overview: [
             'Desenvolvido em ReactJS com JavaScript e estilizado com CSS Modules, este projeto simples permite realizar o cálculo do IMC com as informações \
-            informadas pelo usuários, e dado o resultado, é automática mostrado sua colocação na tabela de classificação oficial.',
+            informadas pelo usuário, e dado o resultado, sua colocação na tabela de classificação é apresentada.',
 
             'A partir das informações, o índice é calculado dividindo o peso pela altura elevada ao quadrado. Após o cálculo, é retornado também \
             a classificação na seguinte tabela:',
@@ -125,15 +125,15 @@ export const projects: Projeto[] = [
             '- IMC entre 30,0kg/m2 e 39,9kg/m2 - obesidade grau 2.',
             '- IMC maior que 40,0kg/m2 - obesidade grave.',
 
-            'Seguindo as boas práticas de programação e regras ESLint no ambiente de desenvolvimento, projeto foca na usabilidade da aplicação \
-            pelo usuário, contendo explicação resumida, bastante informação sem poluição de tela, é rápido acesso ao resultado.',
+            'Seguindo as boas práticas de programação e regras ESLint no ambiente de desenvolvimento, projeto foca na usabilidade da aplicação, \
+            contendo explicação resumida, muita informação mas sem poluição de tela, é rápido acesso ao resultado.',
         ],
         tools: ['Node.js', 'ReactJS', 'ESLint', 'HTML5', 'CSS3', 'CSS Modules', 'JavaScript', 'Vite', 'NPM',]
     },
     {
         id: 6,
         title: 'Calculadora Aritmética',
-        description: 'Aplicação que realiza as quatro operações básica da matemática (Adição, Subtração, Divisão e Multiplicação), em tempo real conforme dado é digitado.',
+        description: 'Aplicação que realiza as quatro operações básicas da matemática (Adição, Subtração, Divisão e Multiplicação), em tempo real conforme dado é digitado.',
         projectlLink: 'https://calculadora-vue-omega-sooty.vercel.app/',
         repository: 'https://github.com/guicamargo19/calculadora_vue.git',
         image: 'https://servidor-estatico-tan.vercel.app/portfolio-calculadora-aritmética.png',
@@ -144,7 +144,7 @@ export const projects: Projeto[] = [
             'Projeto contém dois campos para inserir os números e um campo do tipo select para escolher a operação aritmética. \
             Ao alterar os valores, o cálculo já é realizado sem precisar clicar em nenhum botão.',
 
-            'Permite apenas as quatro operações matemática básica (Adição, Subtração, Divisão e Multiplicação), com visual elegante \
+            'Permite apenas as quatro operações matemática básicas (Adição, Subtração, Divisão e Multiplicação), possui um visual elegante \
             e focado na experiência de usabilidade do usuário.',
         ],
         tools: ['Node.js', 'Vue.js', 'HTML5', 'CSS3', 'Bootstrap', 'JavaScript', 'Vite', 'NPM',]
