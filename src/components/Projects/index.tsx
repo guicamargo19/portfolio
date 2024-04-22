@@ -51,6 +51,7 @@ const Project = ({ projects }: Props) => {
                             <div className="space_control">
                                 <button
                                     name="button-prev"
+                                    id="button-prev"
                                     type="button"
                                     className="carousel-control-prev"
                                     data-bs-target="#carousel"
@@ -60,6 +61,7 @@ const Project = ({ projects }: Props) => {
                                 </button>
                                 <button
                                     name="button-next"
+                                    id="button-next"
                                     type="button"
                                     className="carousel-control-next"
                                     data-bs-target="#carousel"
@@ -68,13 +70,14 @@ const Project = ({ projects }: Props) => {
                                     <span className="carousel-control-next-icon"></span>
                                 </button>
                                 <div className="carousel-indicators">
-                                        <button name="prev-1" type="button" data-bs-target="#carousel" data-bs-slide-to="0" className="active"></button>
-                                        <button name="prev-2" type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
-                                        <button name="prev-3" type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
-                                        <button name="prev-4" type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
-                                        <button name="prev-5" type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
-                                        <button name="prev-6" type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
-                                        <button name="prev-7" type="button" data-bs-target="#carousel" data-bs-slide-to="6"></button>
+                                        <button id="button-prev1" name="prev-1" type="button" data-bs-target="#carousel" data-bs-slide-to="0" className="active"></button>
+                                        <button id="button-prev2" name="prev-2" type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                                        <button id="button-prev3" name="prev-3" type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                                        <button id="button-prev4" name="prev-4" type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                                        <button id="button-prev5" name="prev-5" type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                                        <button id="button-prev6" name="prev-6" type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
+                                        <button id="button-prev7" name="prev-7" type="button" data-bs-target="#carousel" data-bs-slide-to="6"></button>
+                                        <button id="button-prev8" name="prev-8" type="button" data-bs-target="#carousel" data-bs-slide-to="7"></button>
                                 </div>
                             </div>
                         </div>

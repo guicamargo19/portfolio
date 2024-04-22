@@ -18,7 +18,7 @@ export const projects: Projeto[] = [
         description: 'O Projeto é uma aplicação de agenda de contatos altamente interativa e intuitiva, construída utilizando Django com Python.',
         projectlLink: 'https://agenda.gtatelie.com.br/',
         repository: 'https://github.com/guicamargo19/agenda.git',
-        image: 'https://servidor-estatico-tan.vercel.app/portfolio_agenda.png',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio_agenda.avif',
         overview: [
             'A aplicação Agenda é uma plataforma acessível para leitura (Read) de informações, enquanto as demais operações CRUD (Create, Update, Delete) \
             requerem uma conta de administrador. Esta conta tem permissões de realizar essas operações apenas em contato sob sua administração.', 
@@ -29,7 +29,7 @@ export const projects: Projeto[] = [
             'Todos os formulários são validados quanto à segurança e disponibilidade. A segurança abrange senhas fortes e validação de e-mails, \
             enquanto a disponibilidade impede a duplicação de usuários ou e-mails.',
             
-            'O deploy ocorre na Google Cloud Platform, com uma base de dados PostgreSQL. Utilizando um servidor Linux Ubuntu, o projeto é hospedado \
+            'O deploy ocorre na Google Cloud Platform, com uma base de dados PostgreSQL. Utilizando um servidor Linux Ubuntu Server, o projeto é hospedado \
             de forma segura com SSL, configurado com Gunicorn e Nginx.',
 
             'Os contatos atuais da agenda são fictícios, preenchidos por um script utilizando a biblioteca Faker.',
@@ -42,7 +42,7 @@ export const projects: Projeto[] = [
         description: 'O Blog é uma sofisticada aplicação desenvolvida em Django com Python, altamente gerenciável, intuitiva e segura. Destaca-se pela alta responsividade e atenção especial à acessibilidade.',
         projectlLink: 'https://blog.gtatelie.com.br/',
         repository: 'https://github.com/guicamargo19/blog_devs_place.git',
-        image: 'https://servidor-estatico-tan.vercel.app/portfolio_blog.png',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio_blog.avif',
         overview: [
             'O Blog foi desenvolvido em Django com Python, oferecendo segurança e controle para os usuários. Cada administrador tem \
             acesso exclusivo ao seu blog, garantindo a integridade do sistema.',
@@ -65,7 +65,7 @@ export const projects: Projeto[] = [
         description: 'E-Commerce robusto em Django com Python que possui funcionalidades para uma experiência completa de compra.',
         projectlLink: 'https://ecommerce.gtatelie.com.br/',
         repository: 'https://github.com/guicamargo19/ecommerce.git',
-        image: 'https://servidor-estatico-tan.vercel.app/portfolio_ecommerce.png',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio_ecommerce.avif',
         overview: [
             'O projeto E-Commerce se destaca por oferecer uma experiência de compra completa e intuitiva, aliando funcionalidades robustas a um design minimalista.',
 
@@ -87,7 +87,7 @@ export const projects: Projeto[] = [
         description: 'Aplicação fictícia com listagem de restaurantes que oferece aos usuários uma experiência de compra sem complicações, elegante e rápida.',
         projectlLink: 'https://efood-two-beta.vercel.app',
         repository: 'https://github.com/guicamargo19/efood.git',
-        image: 'https://servidor-estatico-tan.vercel.app/portfolio_efood.png',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio_efood.avif',
         overview: [
             'Desenvolvido em ReactJS com TypeScript com requisições feitas para API utilizando React Toolkit Query, este projeto apresenta uma listagem de restaurantes, \
             onde é possível visitar a página individual de cada um e acessar seu cardápio. Pode-se inserir e remover os itens desejados no carrinho, sendo permitido adicionar apenas \
@@ -111,7 +111,7 @@ export const projects: Projeto[] = [
         description: 'Projeto calcula o Índice de Massa Corporal do usuário, dado as informações pelo campos altura e peso.',
         projectlLink: 'https://imc-react-gray-rho.vercel.app/',
         repository: 'https://github.com/guicamargo19/imc_react.git',
-        image: 'https://servidor-estatico-tan.vercel.app/portfolio-calculadora-IMC.png',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio-calculadora-IMC.avif',
         overview: [
             'Desenvolvido em ReactJS com JavaScript e estilizado com CSS Modules, este projeto simples permite realizar o cálculo do IMC com as informações \
             informadas pelo usuário, e dado o resultado, sua colocação na tabela de classificação é apresentada.',
@@ -136,7 +136,7 @@ export const projects: Projeto[] = [
         description: 'Aplicação que realiza as quatro operações básicas da matemática (Adição, Subtração, Divisão e Multiplicação), em tempo real conforme dado é digitado.',
         projectlLink: 'https://calculadora-vue-omega-sooty.vercel.app/',
         repository: 'https://github.com/guicamargo19/calculadora_vue.git',
-        image: 'https://servidor-estatico-tan.vercel.app/portfolio-calculadora-aritmética.png',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio-calculadora-aritmética.avif',
         overview: [
             'Aplicação simples desenvolvida em Vue.js, com visual minimalista criado com classes Bootstrap e pequenas alterações em CSS3, \
             entrega uma experiência eficiente nos cálculos realizando as operações matemáticas em tempo real.',
@@ -155,7 +155,7 @@ export const projects: Projeto[] = [
         description: 'E-Commerce de games para diversas plataformas e consoles, focado na experiência de navegação, com feedback personalidado e visual minimalista.',
         projectlLink: 'https://eplay-nu.vercel.app/',
         repository: 'https://github.com/guicamargo19/eplay-games.git',
-        image: 'https://servidor-estatico-tan.vercel.app/portfolio-eplaygames.png',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio-eplaygames.avif',
         overview: [
             'Site de games desenvolvido em ReactJS com TypeScript e Redux para gerenciar o estado da aplicação, focado na experiência \
             de navegação do usuário, com informações claras e menos poluição visual.',
@@ -171,5 +171,25 @@ export const projects: Projeto[] = [
             eliminando a necessidade de escrever manualmente a lógica de busca e armazenamento em cache.',
         ],
         tools: ['NodeJS', 'ReactJS', 'Redux', 'ESLint', 'Prettier', 'HTML5', 'CSS3', 'Styled Components (CSS-in-JS)', 'Router DOM', 'React Spinners', 'React Toolkit Query', 'Formik', 'Yup', 'TypeScript', 'NPM',]
+    },
+    {
+        id: 8,
+        title: 'Disney+ Clone',
+        description: 'Projeto acadêmico clone da aplicação de streaming da Disney, utilizando SASS e Gulp, refletindo em site com alta classificação em performance, acessibilidade e SEO.',
+        projectlLink: 'https://clone-disneyplus-ashy-mu.vercel.app/',
+        repository: 'https://github.com/guicamargo19/clone_disneyplus.git',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio_disney.avif',
+        overview: [
+            'Projeto desenvolvido com elementos HTML5 e estilizado com CSS3, baseando-se na aplicação de streaming original Disney+, \
+            oferecendo um design moderno, agradável e responsivo, utilizando JavaScript para criar um comportamento elegante da \
+            aplicação como abas e accordion na seção FAQ.',
+
+            'Desenvolvimento do projeto é focado em perfomance com uso do pré-processador de CSS SASS e Gulp como automatizador de tarefas, \
+            como compilação do SASS e compressão de imagens.',
+
+            'Este projeto foi realizado com a aplicação da Metodologia BEM (Block Element Modifier) em toda estrutura do projeto, \
+            buscando aplicar as melhoras práticas de programação para desenvolvimento web.',
+        ],
+        tools: ['HTML5', 'CSS3', 'JavaScript', 'SASS', 'Gulp', 'Metodologia BEM', 'NPM',]
     },
 ]

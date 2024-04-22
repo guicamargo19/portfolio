@@ -71,7 +71,7 @@ export const Header = () => {
                 <div className="header__logo-container">
                     <div className="header__logo-img-cont">
                         <img
-                            src="https://servidor-estatico-tan.vercel.app/guilherme_camargo.jpeg"
+                            src="https://servidor-estatico-tan.vercel.app/guilherme_camargo.avif"
                             alt="Guilherme Camargo Imagem Logo"
                             className="header__logo-img"
                         />
@@ -81,16 +81,16 @@ export const Header = () => {
                 <div className="header__main">
                     <ul className="header__links">
                         <li className="header__link-wrapper">
-                            <a onClick={() => handleButtonClick('hero')} className="header__link heading-sec__main__menu">Home</a>
+                            <a href="#hero" onClick={() => handleButtonClick('hero')} className="header__link heading-sec__main__menu">Home</a>
                         </li>
                         <li className="header__link-wrapper">
-                            <a onClick={() => handleButtonClick('about')} className="header__link heading-sec__main__menu">Sobre</a>
+                            <a href="#about" onClick={() => handleButtonClick('about')} className="header__link heading-sec__main__menu">Sobre</a>
                         </li>
                         <li className="header__link-wrapper">
-                            <a onClick={() => handleButtonClick('projects')} className="header__link heading-sec__main__menu">Projetos</a>
+                            <a href="#projects" onClick={() => handleButtonClick('projects')} className="header__link heading-sec__main__menu">Projetos</a>
                         </li>
                         <li className="header__link-wrapper">
-                            <a onClick={() => handleButtonClick('contact')} className="header__link heading-sec__main__menu">Contato</a>
+                            <a href="#contact" onClick={() => handleButtonClick('contact')} className="header__link heading-sec__main__menu">Contato</a>
                         </li>
                     </ul>
                     <div className="header__main-ham-menu-cont">
