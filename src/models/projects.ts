@@ -34,7 +34,7 @@ export const projects: Projeto[] = [
 
             'Os contatos atuais da agenda são fictícios, preenchidos por um script utilizando a biblioteca Faker.',
         ],
-        tools: ['Python', 'Django', 'HTML5', 'CSS3', 'PostgreSQL', 'Google Cloud Platform', 'Linux Ubuntu', 'Gunicorn', 'Nginx', 'Faker']
+        tools: ['Python', 'Django', 'HTML5', 'CSS3', 'PostgreSQL', 'Google Cloud Platform', 'Linux Ubuntu Server', 'Gunicorn', 'Nginx', 'Faker']
     },
     {
         id: 2,
@@ -57,7 +57,7 @@ export const projects: Projeto[] = [
         
             'Com um design moderno e responsivo, o blog oferece uma navegação amigável e acessível, com elementos HTML e estilização em CSS.',
         ],
-        tools: ['Python', 'Django', 'Django Axes', 'HTML5', 'CSS3', 'Docker', 'PostgreSQL', 'Linux Ubuntu', 'Google Cloud Platform', 'Gunicorn', 'Nginx']
+        tools: ['Python', 'Django', 'Django Axes', 'HTML5', 'CSS3', 'Docker', 'PostgreSQL', 'Linux Ubuntu Server', 'Google Cloud Platform', 'Gunicorn', 'Nginx']
     },
     {
         id: 3,
@@ -79,7 +79,7 @@ export const projects: Projeto[] = [
             
             'Plataforma robusta e flexível para suportar o crescimento futuro do negócio e integração com outras ferramentas e marketplaces para ampliar o alcance da loja.',
         ],
-        tools: ['Python', 'Django', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap', 'PostgreSQL', 'Linux Ubuntu', 'Google Cloud Platform', 'Gunicorn', 'Nginx']
+        tools: ['Python', 'Django', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap', 'PostgreSQL', 'Linux Ubuntu Server', 'Google Cloud Platform', 'Gunicorn', 'Nginx']
     },
     {
         id: 4,
@@ -103,7 +103,7 @@ export const projects: Projeto[] = [
             'Os formulários foram criados com Formik e máscaras nos campos feitas com Yup, assim todos os campos possuem validação e \
             uma chacagem robusta para evitar erros e informações inválidas.',
         ],
-        tools: ['NodeJS', 'ReactJS', 'ReduxJS', 'ESLint', 'Prettier', 'HTML5', 'CSS3', 'Styled Components', 'Router DOM', 'React Spinners', 'React Toolkit Query', 'Formik', 'Yup', 'TypeScript', 'NPM',]
+        tools: ['NodeJS', 'ReactJS', 'Redux', 'ESLint', 'Prettier', 'HTML5', 'CSS3', 'Styled Components (CSS-in-JS)', 'Router DOM', 'React Spinners', 'React Toolkit Query', 'Formik', 'Yup', 'TypeScript', 'NPM',]
     },
     {
         id: 5,
@@ -148,5 +148,28 @@ export const projects: Projeto[] = [
             e focado na experiência de usabilidade do usuário.',
         ],
         tools: ['Node.js', 'Vue.js', 'HTML5', 'CSS3', 'Bootstrap', 'JavaScript', 'Vite', 'NPM',]
+    },
+    {
+        id: 7,
+        title: 'ePlay Games',
+        description: 'E-Commerce de games para diversas plataformas e consoles, focado na experiência de navegação, com feedback personalidado e visual minimalista.',
+        projectlLink: 'https://eplay-nu.vercel.app/',
+        repository: 'https://github.com/guicamargo19/eplay-games.git',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio-eplaygames.png',
+        overview: [
+            'Site de games desenvolvido em ReactJS com TypeScript e Redux para gerenciar o estado da aplicação, focado na experiência \
+            de navegação do usuário, com informações claras e menos poluição visual.',
+
+            'Estilização realizada com Styled Components (CSS-in-JS) e React Router DOM para navegação entre páginas, tornando esta \
+            uma SPA (Single Page Application), projeto oferece ótima performance com classificação alta em acessibilidade, boas práticas e SEO.',
+
+            'Um projeto responsivo que permite filtrar os jogos por categoria, inserir e remover itens do carrinho de compras, \
+            inserir dados de pagamento, com feedback personalizado durante toda experiência de navegação, tendo os formulários \
+            criados com Formik e com validação e máscaras nos campos feitas com Yup, evitando informações falsas ou digitadas incorretamente.',
+            
+            'As requisições foram feitas para API utilizando React Toolkit Query simplificando o carregamento de dados da aplicação, \
+            eliminando a necessidade de escrever manualmente a lógica de busca e armazenamento em cache.',
+        ],
+        tools: ['NodeJS', 'ReactJS', 'Redux', 'ESLint', 'Prettier', 'HTML5', 'CSS3', 'Styled Components (CSS-in-JS)', 'Router DOM', 'React Spinners', 'React Toolkit Query', 'Formik', 'Yup', 'TypeScript', 'NPM',]
     },
 ]

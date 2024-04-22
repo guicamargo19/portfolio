@@ -74,7 +74,7 @@ const Project = ({ projects }: Props) => {
                                         <button name="prev-4" type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
                                         <button name="prev-5" type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
                                         <button name="prev-6" type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
-                                        {/* <button name="prev-4" type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button> */}
+                                        <button name="prev-7" type="button" data-bs-target="#carousel" data-bs-slide-to="6"></button>
                                 </div>
                             </div>
                         </div>
