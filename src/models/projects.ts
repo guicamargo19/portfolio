@@ -84,12 +84,12 @@ export const projects: Projeto[] = [
     {
         id: 4,
         title: 'eFood',
-        description: 'Website fictício com lista de restaurantes que oferece aos clientes uma experiência de compra sem complicações, rápida e elegante.',
+        description: 'Aplicação fictícia com listagem de restaurantes que oferece aos usuários uma experiência de compra sem complicações, elegante e rápida.',
         projectlLink: 'https://efood-two-beta.vercel.app',
         repository: 'https://github.com/guicamargo19/efood.git',
         image: 'https://servidor-estatico-tan.vercel.app/portfolio_efood.png',
         overview: [
-            'Desenvolvido em ReactjS com TypeScript com requisições feitas para API utilizando React Toolkit Query, este projeto apresenta uma listagem de restaurantes, \
+            'Desenvolvido em ReactJS com TypeScript com requisições feitas para API utilizando React Toolkit Query, este projeto apresenta uma listagem de restaurantes, \
             onde é possível visitar a página individual de cada um e acessar seu cardápio. Pode-se inserir e remover os itens desejados no carrinho, sendo permitido adicionar apenas \
             um item de cada prato.',
 
@@ -103,7 +103,7 @@ export const projects: Projeto[] = [
             'Os formulários foram criados com Formik e máscaras nos campos feitas com Yup, assim todos os campos possuem validação e \
             uma chacagem robusta para evitar erros e informações inválidas.',
         ],
-        tools: ['ESLint', 'HTML5', 'CSS3', 'Styled Components', 'NodeJS', 'ReactJS', 'ReduxJS', 'Router DOM', 'React Spinners', 'React Toolkit Query', 'Formik', 'Yup', 'TypeScript', 'NPM',]
+        tools: ['NodeJS', 'ReactJS', 'ReduxJS', 'ESLint', 'Prettier', 'HTML5', 'CSS3', 'Styled Components', 'Router DOM', 'React Spinners', 'React Toolkit Query', 'Formik', 'Yup', 'TypeScript', 'NPM',]
     },
     {
         id: 5,
