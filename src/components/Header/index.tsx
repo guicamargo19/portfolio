@@ -111,19 +111,19 @@ export const Header = () => {
                 <div className="header__sm-menu-content">
                     <ul className="header__sm-menu-links">
                         <li className="header__sm-menu-link">
-                            <a href="./">Home</a>
+                            <a href="#hero" onClick={() => handleButtonClick('hero')}>Home</a>
                         </li>
 
                         <li className="header__sm-menu-link">
-                            <a href="./#about">Sobre</a>
+                            <a href="#about" onClick={() => handleButtonClick('about')}>Sobre</a>
                         </li>
 
                         <li className="header__sm-menu-link">
-                            <a href="./#projects">Projetos</a>
+                            <a href="#projects" onClick={() => handleButtonClick('projects')}>Projetos</a>
                         </li>
 
                         <li className="header__sm-menu-link">
-                            <a href="./#contact">Contato</a>
+                            <a href="#contact" onClick={() => handleButtonClick('contact')} >Contato</a>
                         </li>
                     </ul>
                 </div>
