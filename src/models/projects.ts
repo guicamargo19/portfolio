@@ -65,7 +65,7 @@ export const projects: Projeto[] = [
         description: 'E-Commerce robusto em Django com Python que possui funcionalidades para uma experiência completa de compra.',
         projectlLink: 'https://ecommerce.gtatelie.com.br/',
         repository: 'https://github.com/guicamargo19/ecommerce.git',
-        image: 'https://servidor-estatico-tan.vercel.app/portfolio_ecommerce.avif',
+        image: 'https://servidor-estatico-tan.vercel.app/portfolio_e-sports.avif',
         overview: [
             'O projeto E-Commerce se destaca por oferecer uma experiência de compra completa e intuitiva, aliando funcionalidades robustas a um design minimalista.',
 
