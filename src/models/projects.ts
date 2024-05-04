@@ -16,7 +16,7 @@ export const projects: Projeto[] = [
     id: 1,
     title: 'Agenda',
     description:
-      'O Projeto é uma aplicação de agenda de contatos altamente interativa e intuitiva, construída utilizando Django com Python.',
+      'O Projeto é uma aplicação de agenda de contatos altamente interativa e intuitiva, construída utilizando Django/Templates com Python.',
     projectlLink: 'https://agenda.gtatelie.com.br/',
     repository: 'https://github.com/guicamargo19/agenda.git',
     image: 'https://servidor-estatico-tan.vercel.app/portfolio_agenda.avif',
@@ -37,7 +37,7 @@ export const projects: Projeto[] = [
     ],
     tools: [
       'Python',
-      'Django',
+      'Django/Templates',
       'HTML5',
       'CSS3',
       'PostgreSQL',
@@ -52,7 +52,7 @@ export const projects: Projeto[] = [
     id: 2,
     title: 'Blog Devs Place',
     description:
-      'O Blog é uma sofisticada aplicação desenvolvida em Django com Python, altamente gerenciável, intuitiva e segura. Destaca-se pela alta responsividade e atenção especial à acessibilidade.',
+      'O Blog é uma sofisticada aplicação desenvolvida em Django/Templates com Python, altamente gerenciável, intuitiva e segura. Destaca-se pela alta responsividade e atenção especial à acessibilidade.',
     projectlLink: 'https://blog.gtatelie.com.br/',
     repository: 'https://github.com/guicamargo19/blog_devs_place.git',
     image: 'https://servidor-estatico-tan.vercel.app/portfolio_blog.avif',
@@ -68,11 +68,11 @@ export const projects: Projeto[] = [
 
       'A inserção de imagens é simplificada, com redimensionamento automático para melhorar a performance do site.',
 
-      'Com um design moderno e responsivo, o blog oferece uma navegação amigável e acessível, com elementos HTML e estilização em CSS.'
+      'Com um design moderno e responsivo, o blog oferece uma navegação amigável e acessível, com elementos HTML5 e estilização em CSS3.'
     ],
     tools: [
       'Python',
-      'Django',
+      'Django/Templates',
       'Django Axes',
       'HTML5',
       'CSS3',
@@ -86,9 +86,9 @@ export const projects: Projeto[] = [
   },
   {
     id: 3,
-    title: 'E-Commerce',
+    title: 'E-Commerce e-Sports',
     description:
-      'E-Commerce robusto em Django com Python que possui funcionalidades para uma experiência completa de compra.',
+      'E-Commerce robusto em Django/Templates com Python que possui funcionalidades para uma experiência completa de compra.',
     projectlLink: 'https://ecommerce.gtatelie.com.br/',
     repository: 'https://github.com/guicamargo19/ecommerce.git',
     image: 'https://servidor-estatico-tan.vercel.app/portfolio_e-sports.avif',
@@ -107,7 +107,7 @@ export const projects: Projeto[] = [
     ],
     tools: [
       'Python',
-      'Django',
+      'Django/Templates',
       'JavaScript',
       'HTML5',
       'CSS3',
@@ -123,7 +123,7 @@ export const projects: Projeto[] = [
     id: 4,
     title: 'eFood',
     description:
-      'Aplicação fictícia com listagem de restaurantes que oferece aos usuários uma experiência de compra sem complicações, elegante e rápida.',
+      'Aplicação fictícia desenvolvida em ReactJS com TypeScript com listagem de restaurantes que oferece aos usuários uma experiência de compra sem complicações, elegante e rápida.',
     projectlLink: 'https://efood-two-beta.vercel.app',
     repository: 'https://github.com/guicamargo19/efood.git',
     image: 'https://servidor-estatico-tan.vercel.app/portfolio_efood.avif',
@@ -145,9 +145,8 @@ export const projects: Projeto[] = [
     tools: [
       'NodeJS',
       'ReactJS',
+      'TypeScript',
       'Redux',
-      'ESLint',
-      'Prettier',
       'HTML5',
       'CSS3',
       'Styled Components (CSS-in-JS)',
@@ -156,7 +155,8 @@ export const projects: Projeto[] = [
       'React Toolkit Query',
       'Formik',
       'Yup',
-      'TypeScript',
+      'ESLint',
+      'Prettier',
       'NPM'
     ]
   },
@@ -164,7 +164,7 @@ export const projects: Projeto[] = [
     id: 5,
     title: 'Calculadora IMC',
     description:
-      'Projeto calcula o Índice de Massa Corporal do usuário, dado as informações pelo campos altura e peso.',
+      'Projeto desenvolvido em ReactJS com JS calcula o Índice de Massa Corporal do usuário, dado as informações pelo campos altura e peso.',
     projectlLink: 'https://imc-react-gray-rho.vercel.app/',
     repository: 'https://github.com/guicamargo19/imc_react.git',
     image:
@@ -188,11 +188,11 @@ export const projects: Projeto[] = [
     tools: [
       'Node.js',
       'ReactJS',
-      'ESLint',
+      'JavaScript',
       'HTML5',
       'CSS3',
       'CSS Modules',
-      'JavaScript',
+      'ESLint',
       'Vite',
       'NPM'
     ]
@@ -201,7 +201,7 @@ export const projects: Projeto[] = [
     id: 6,
     title: 'Calculadora Aritmética',
     description:
-      'Aplicação que realiza as quatro operações básicas da matemática (Adição, Subtração, Divisão e Multiplicação), em tempo real conforme dado é digitado.',
+      'Aplicação desenvolvida em Vue.js que realiza as quatro operações básicas da matemática (Adição, Subtração, Divisão e Multiplicação), em tempo real conforme dado é digitado.',
     projectlLink: 'https://calculadora-vue-omega-sooty.vercel.app/',
     repository: 'https://github.com/guicamargo19/calculadora_vue.git',
     image:
@@ -219,10 +219,10 @@ export const projects: Projeto[] = [
     tools: [
       'Node.js',
       'Vue.js',
+      'JavaScript',
       'HTML5',
       'CSS3',
       'Bootstrap',
-      'JavaScript',
       'Vite',
       'NPM'
     ]
@@ -231,7 +231,7 @@ export const projects: Projeto[] = [
     id: 7,
     title: 'ePlay Games',
     description:
-      'E-Commerce de games para diversas plataformas e consoles, focado na experiência de navegação, com feedback personalidado e visual minimalista.',
+      'E-Commerce de games desenvolvido em ReactJS com TypeScript para diversas plataformas e consoles, focado na experiência de navegação, com feedback personalidado e visual minimalista.',
     projectlLink: 'https://eplay-nu.vercel.app/',
     repository: 'https://github.com/guicamargo19/eplay-games.git',
     image: 'https://servidor-estatico-tan.vercel.app/portfolio-eplaygames.avif',
@@ -252,9 +252,8 @@ export const projects: Projeto[] = [
     tools: [
       'NodeJS',
       'ReactJS',
+      'TypeScript',
       'Redux',
-      'ESLint',
-      'Prettier',
       'HTML5',
       'CSS3',
       'Styled Components (CSS-in-JS)',
@@ -263,7 +262,8 @@ export const projects: Projeto[] = [
       'React Toolkit Query',
       'Formik',
       'Yup',
-      'TypeScript',
+      'ESLint',
+      'Prettier',
       'NPM'
     ]
   },
