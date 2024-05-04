@@ -10,13 +10,16 @@ import './App.css'
 function App() {
   return (
     <BrowserRouter>
-      <Header/>
+      <Header />
       <ScrollToTop>
         <Routes>
-            <Route path="/" element={<Home projects={projects}/>} />
+          <Route path="/" element={<Home projects={projects} />} />
         </Routes>
         <Routes>
-            <Route path="/project/:id" element={<Projects projects={projects} />} />
+          <Route
+            path="/project/:id"
+            element={<Projects projects={projects} />}
+          />
         </Routes>
       </ScrollToTop>
       <Footer />
