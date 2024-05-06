@@ -32,11 +32,15 @@ const Projects = ({ projects }: Props) => {
           </div>
           <div className="home-hero__cta">
             <a
-              href={project.projectlLink}
+              href={
+                project.projectlLink === ''
+                  ? project.repository
+                  : project.projectlLink
+              }
               target="_blank"
               className="button btn--bg"
             >
-              Acessar
+              {project.projectlLink === '' ? 'Repositório' : 'Acessar'}
             </a>
           </div>
         </div>

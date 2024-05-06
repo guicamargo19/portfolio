@@ -121,6 +121,43 @@ export const projects: Projeto[] = [
   },
   {
     id: 4,
+    title: 'REST API (CRUD em Produto)',
+    description:
+      'Projeto pessoal Full Stack de uma REST API desenvolvida em Django/DRF com Python, destinada à gestão de dados relacionados à entidade "Produto", oferecendo operações de manutenção (CRUD) completas para esta entidade.',
+    projectlLink: '',
+    repository: 'https://github.com/guicamargo19/fullstack_rest_api.git',
+    image: 'https://servidor-estatico-tan.vercel.app/portfolio_rest_api.avif',
+    overview: [
+      'O projeto viabiliza a criação de um elemento Produto, com a integral preservação de todos os seus dados. Através de uma interface Front-end simples, \
+            minimalista e intuitiva, construída com ReactJS com JS, são executáveis operações CRUD (Create, Read, Update, Delete).',
+
+      'O Back-end, elaborado em Django com Python, incorpora a REST API mediante o Django Rest Framework, com testes unitários para verificar se as operações \
+            estão funcionando como esperado e o armazenamento de dados é efetuado utilizando o PostgreSQL.',
+
+      'Com Docker/Docker-compose na infraestrutura do projeto em ambiente de desenvolvimento responsável por definir serviços distintos, cada um com suas \
+            próprias configurações e dependências. Com Hot Reload configurado para Front-end com Nodemon, sem a necessidade de rebuildar o projeto a \
+            cada alteração realizada.'
+    ],
+    tools: [
+      'Python',
+      'Django',
+      'Django Rest Framework',
+      'PostgreSQL',
+      'ReactJS',
+      'JavaScript',
+      'HTML5',
+      'CSS3',
+      'Styled Components (CSS-in-JS)',
+      'React Spinners',
+      'React Query',
+      'ESLint',
+      'Prettier',
+      'NPM',
+      'Docker/Docker-compose'
+    ]
+  },
+  {
+    id: 5,
     title: 'eFood',
     description:
       'Aplicação fictícia desenvolvida em ReactJS com TypeScript com listagem de restaurantes que oferece aos usuários uma experiência de compra sem complicações, elegante e rápida.',
@@ -143,7 +180,6 @@ export const projects: Projeto[] = [
             uma chacagem robusta para evitar erros e informações inválidas.'
     ],
     tools: [
-      'NodeJS',
       'ReactJS',
       'TypeScript',
       'Redux',
@@ -161,7 +197,7 @@ export const projects: Projeto[] = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     title: 'Calculadora IMC',
     description:
       'Projeto desenvolvido em ReactJS com JS calcula o Índice de Massa Corporal do usuário, dado as informações pelo campos altura e peso.',
@@ -186,43 +222,12 @@ export const projects: Projeto[] = [
             contendo explicação resumida, muita informação mas sem poluição de tela, é rápido acesso ao resultado.'
     ],
     tools: [
-      'Node.js',
       'ReactJS',
       'JavaScript',
       'HTML5',
       'CSS3',
       'CSS Modules',
       'ESLint',
-      'Vite',
-      'NPM'
-    ]
-  },
-  {
-    id: 6,
-    title: 'Calculadora Aritmética',
-    description:
-      'Aplicação desenvolvida em Vue.js que realiza as quatro operações básicas da matemática (Adição, Subtração, Divisão e Multiplicação), em tempo real conforme dado é digitado.',
-    projectlLink: 'https://calculadora-vue-omega-sooty.vercel.app/',
-    repository: 'https://github.com/guicamargo19/calculadora_vue.git',
-    image:
-      'https://servidor-estatico-tan.vercel.app/portfolio-calculadora-aritmética.avif',
-    overview: [
-      'Aplicação simples desenvolvida em Vue.js, com visual minimalista criado com classes Bootstrap e pequenas alterações em CSS3, \
-            entrega uma experiência eficiente nos cálculos realizando as operações matemáticas em tempo real.',
-
-      'Projeto contém dois campos para inserir os números e um campo do tipo select para escolher a operação aritmética. \
-            Ao alterar os valores, o cálculo já é realizado sem precisar clicar em nenhum botão.',
-
-      'Permite apenas as quatro operações matemática básicas (Adição, Subtração, Divisão e Multiplicação), possui um visual elegante \
-            e focado na experiência de usabilidade do usuário.'
-    ],
-    tools: [
-      'Node.js',
-      'Vue.js',
-      'JavaScript',
-      'HTML5',
-      'CSS3',
-      'Bootstrap',
       'Vite',
       'NPM'
     ]
@@ -250,7 +255,6 @@ export const projects: Projeto[] = [
             eliminando a necessidade de escrever manualmente a lógica de busca e armazenamento em cache.'
     ],
     tools: [
-      'NodeJS',
       'ReactJS',
       'TypeScript',
       'Redux',
