@@ -121,11 +121,11 @@ export const projects: Projeto[] = [
   },
   {
     id: 4,
-    title: 'REST API (CRUD em Produto)',
+    title: 'REST API com ReactJS',
     description:
       'Projeto pessoal Full Stack de uma REST API desenvolvida em Django/DRF com Python, destinada à gestão de dados relacionados à entidade "Produto", oferecendo operações de manutenção (CRUD) completas para esta entidade.',
     projectlLink: '',
-    repository: 'https://github.com/guicamargo19/fullstack_rest_api.git',
+    repository: 'https://github.com/guicamargo19/fullstack_rest_api_react.git',
     image: 'https://servidor-estatico-tan.vercel.app/portfolio_rest_api.avif',
     overview: [
       'O projeto viabiliza a criação de um elemento Produto, com a integral preservação de todos os seus dados. Através de uma interface Front-end simples, \
@@ -273,31 +273,24 @@ export const projects: Projeto[] = [
   },
   {
     id: 8,
-    title: 'Disney+ Clone',
+    title: 'REST API com Django Templates',
     description:
-      'Projeto acadêmico clone da aplicação de streaming da Disney, utilizando SASS e Gulp, refletindo em site com alta classificação em performance, acessibilidade e SEO.',
-    projectlLink: 'https://clone-disneyplus-ashy-mu.vercel.app/',
-    repository: 'https://github.com/guicamargo19/clone_disneyplus.git',
-    image: 'https://servidor-estatico-tan.vercel.app/portfolio_disney.avif',
+      'Projeto pessoal Full Stack de uma REST API desenvolvida em Django/DRF com Python, destinada à gestão de dados relacionados à entidade "Usuário", oferecendo operações de manutenção (CRUD) completas para esta entidade.',
+    projectlLink: '',
+    repository: 'https://github.com/guicamargo19/fullstack_rest_api_templates.git',
+    image: 'https://servidor-estatico-tan.vercel.app/rest_api_templates.avif',
     overview: [
-      'Projeto desenvolvido com elementos HTML5 e estilizado com CSS3, baseando-se na aplicação de streaming original Disney+, \
-            oferecendo um design moderno, agradável e responsivo, utilizando JavaScript para criar um comportamento elegante da \
-            aplicação como abas e accordion na seção FAQ.',
+      'O projeto viabiliza a criação de um elemento Usuário, com a integral preservação de todos os seus dados. Através de uma interface Front-end, \
+            minimalista e intuitiva, construída em Django Templates, são executáveis operações CRUD (Create, Read, Update, Delete).',
 
-      'Desenvolvimento do projeto é focado em perfomance com uso do pré-processador de CSS SASS e Gulp como automatizador de tarefas, \
-            como compilação do SASS e compressão de imagens.',
+      'O Back-end, elaborado em Django com Python, incorpora a REST API mediante o Django Rest Framework, com testes unitários para verificar se as operações \
+            estão funcionando como esperado e o armazenamento de dados é efetuado utilizando o PostgreSQL.',
 
-      'Este projeto foi realizado com a aplicação da Metodologia BEM (Block Element Modifier) em toda estrutura do projeto, \
-            buscando aplicar as melhoras práticas de programação para desenvolvimento web.'
+      'Com Docker/Docker-compose na infraestrutura do projeto em ambiente de desenvolvimento responsável por definir serviços distintos, cada um com suas \
+            próprias configurações e dependências.'
     ],
     tools: [
-      'HTML5',
-      'CSS3',
-      'JavaScript',
-      'SASS',
-      'Gulp',
-      'Metodologia BEM',
-      'NPM'
+      'Python', 'Django', 'Django Rest Framework', 'PostgreSQL', 'Django Templates', 'HTML5', 'CSS3', 'Docker', 'NPM',
     ]
   }
 ]

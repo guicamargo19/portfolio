@@ -45,20 +45,6 @@ export const Hero = () => {
             />
           </a>
         </div>
-        <div className="home-hero__social">
-          <a
-            href="https://dev.to/gfcamargo"
-            className="home-hero__social-icon-link"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img
-              src="https://servidor-estatico-tan.vercel.app/book-dark.svg"
-              alt="DEV.to Blog Perfil Guilherme Camargo"
-              className="home-hero__social-icon"
-            />
-          </a>
-        </div>
       </div>
       <div className="home-hero__mouse-scroll-cont">
         <div className="mouse"></div>

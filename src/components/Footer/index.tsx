@@ -34,17 +34,6 @@ export const Footer = () => {
                   alt="Perfil GitHub Guilherme Camargo"
                 />
               </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://dev.to/gfcamargo"
-              >
-                <img
-                  className="main-footer__icon"
-                  src="https://servidor-estatico-tan.vercel.app/blog-ico.png"
-                  alt="Blog Perfil DEV.to Guilherme Camargo"
-                />
-              </a>
             </div>
           </div>
           <div className="main-footer__row main-footer__row-2">
