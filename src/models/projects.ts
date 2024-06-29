@@ -17,7 +17,7 @@ export const projects: Projeto[] = [
     title: 'Agenda',
     description:
       'O Projeto é uma aplicação de agenda de contatos altamente interativa e intuitiva, construída utilizando Django/Templates com Python.',
-    projectlLink: 'https://agenda.gtatelie.com.br/',
+    projectlLink: '',
     repository: 'https://github.com/guicamargo19/agenda.git',
     image: 'https://servidor-estatico-tan.vercel.app/portfolio_agenda.avif',
     overview: [
@@ -53,7 +53,7 @@ export const projects: Projeto[] = [
     title: 'Blog Devs Place',
     description:
       'O Blog é uma sofisticada aplicação desenvolvida em Django/Templates com Python, altamente gerenciável, intuitiva e segura. Destaca-se pela alta responsividade e atenção especial à acessibilidade.',
-    projectlLink: 'https://blog.gtatelie.com.br/',
+    projectlLink: '',
     repository: 'https://github.com/guicamargo19/blog_devs_place.git',
     image: 'https://servidor-estatico-tan.vercel.app/portfolio_blog.avif',
     overview: [
@@ -89,7 +89,7 @@ export const projects: Projeto[] = [
     title: 'E-Commerce e-Sports',
     description:
       'E-Commerce robusto em Django/Templates com Python que possui funcionalidades para uma experiência completa de compra.',
-    projectlLink: 'https://ecommerce.gtatelie.com.br/',
+    projectlLink: '',
     repository: 'https://github.com/guicamargo19/ecommerce.git',
     image: 'https://servidor-estatico-tan.vercel.app/portfolio_e-sports.avif',
     overview: [
