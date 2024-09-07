@@ -16,19 +16,23 @@ export const About = () => {
           <div className="about__content-main">
             <h3 className="about__content-title">Me conhecendo</h3>
             <div className="about__content-details">
-              <p className="about__content-details-para">
+              <p className="about__content-details-para">                
                 Sou <strong>Engenheiro da computação</strong> e{' '}
                 <strong>Desenvolvedor Full Stack Python </strong>
-                construindo e gerenciando aplicações web e projetos com foco na
-                experiência do usuário e no sucesso geral. Confira um pouco do
-                meu trabalho na seção <strong>Projetos</strong>.
+                com experiência na construção e gerenciamento de aplicações web
+                e projetos focados na experiência do usuário e no sucesso geral.
+                Na seção de <strong>Projetos</strong> você pode conferir parte
+                do meu trabalho e algumas soluções que implementei ao longo da
+                minha trajetória.
               </p>
               <p className="about__content-details-para">
-                Gosto muito de desafios que me permitem pesquisar e buscar
-                soluções, muitas vezes inovadoras, que me fazem crescer e
-                evoluir como profissional. Estou sempre aprendendo novos métodos
-                de realizar tarefas, me desenvolvendo e expandindo minhas
-                capacidades. Sinta-se a vontade para seguir meu
+                Sou apaixonado por desafios que exigem pesquisa e inovação,
+                permitindo-me expandir constantemente minhas habilidades e
+                conhecimentos. Estou sempre em busca de aprender novas abordagens
+                para otimizar processos e evoluir como profissional.
+              </p>
+              <p className="about__content-details-para">
+                Sinta-se à vontade para acessar meu{' '}
                 <a
                   rel="noreferrer"
                   href="https://www.linkedin.com/in/guilherme-ferreira-camargo/"
@@ -36,13 +40,7 @@ export const About = () => {
                 >
                   LinkedIn
                 </a>
-                , onde podemos nos conectar e compartilhar conhecimento, ideias
-                e novidades.
-              </p>
-              <p className="about__content-details-para">
-                Estou aberto a oportunidades onde possa contribuir, aprender e
-                crescer. Se você tem uma vaga que combina com minhas habilidades
-                não hesite em entrar em contato comigo.
+                , onde podemos nos conectar, compartilhar ideias e trocar conhecimentos. 
               </p>
             </div>
             <a
@@ -53,38 +51,37 @@ export const About = () => {
             </a>
           </div>
           <div className="about__content-skills">
-            <h3 className="about__content-title">Minhas Skills</h3>
+            <h3 className="about__content-title">Skills</h3>
             <div className="skills">
               <div className="skills__skill">Python</div>
-              <div className="skills__skill">Django/Django Templates</div>
+              <div className="skills__skill">Django</div>
               <div className="skills__skill">DRF</div>
               <div className="skills__skill">REST APIs</div>
-              <div className="skills__skill">jQuery</div>
               <div className="skills__skill">HTML5</div>
               <div className="skills__skill">CSS3</div>
               <div className="skills__skill">CSS Modules</div>
-              <div className="skills__skill">Styled Components (CSS-in-JS)</div>
-              <div className="skills__skill">Gulp</div>
-              <div className="skills__skill">Bootstrap</div>
-              <div className="skills__skill">Design responsivo</div>
-              <div className="skills__skill">JavaScript</div>
-              <div className="skills__skill">TypeScript</div>
               <div className="skills__skill">SASS</div>
               <div className="skills__skill">LESS</div>
-              <div className="skills__skill">ReactJS</div>
-              <div className="skills__skill">Redux</div>
+              <div className="skills__skill">Styled Components (CSS-in-JS)</div>
+              <div className="skills__skill">Design responsivo</div>
+              <div className="skills__skill">Django Templates</div>
+              <div className="skills__skill">React</div>
               <div className="skills__skill">Vue.js</div>
-              <div className="skills__skill">TDD</div>
-              <div className="skills__skill">NPM</div>
-              <div className="skills__skill">Vite</div>
+              <div className="skills__skill">JavaScript</div>
+              <div className="skills__skill">TypeScript</div>
+              <div className="skills__skill">Redux</div>
               <div className="skills__skill">Github</div>
-              <div className="skills__skill">Linux</div>
-              <div className="skills__skill">PostgreSQL</div>
+              <div className="skills__skill">SQL</div>
+              <div className="skills__skill">AWS</div>
+              <div className="skills__skill">Lambda</div>
+              <div className="skills__skill">Step Functions</div>
+              <div className="skills__skill">Amazon ECS</div>
               <div className="skills__skill">Docker</div>
-              <div className="skills__skill">GitHub Actions</div>
-              <div className="skills__skill">Google Cloud Platform</div>
+              <div className="skills__skill">Amazon EC2</div>
+              <div className="skills__skill">Amazon S3</div>
               <div className="skills__skill">DevOps</div>
               <div className="skills__skill">CI/CD</div>
+              <div className="skills__skill">Linux</div>
             </div>
           </div>
         </div>
